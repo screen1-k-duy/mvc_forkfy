@@ -15,6 +15,8 @@ class SearchView {
     this._parentEl.addEventListener('submit', function (e) {
       e.preventDefault();
       handler();
+
+      console.log('handler()',handler());
     });
   }
 }
